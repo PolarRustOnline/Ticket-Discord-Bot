@@ -1,0 +1,145 @@
+{
+     "Categories":{
+          "Player Report":{
+               "TicketPingRole":1035488875931512832,
+               "TicketCategory":1279144318183149741,
+               "Log_Channel_ID":1279143961419841698,
+               "RolesInChannel":[1118012282635571200,786716118077276161,1046115125930770465,1035488875931512832],
+               "Description":"Report a user which you think is Rulebreaking/Cheating.",
+               "ChannelShortname":"player-report",
+               "Emoji":"🕵️‍♂️",
+               "Questions":[
+                    {
+                         "q":"What server are you on?",
+                         "p":"Please enter the server you are on...",
+                         "type":"short",
+                         "max_length":50,
+                         "min_length":0,
+                         "required":true
+                    },
+                    {
+                         "q":"What is the user's ingame name & steam64 ID?",
+                         "p":"Please enter the users ingame name & steamID...",
+                         "type":"short",
+                         "max_length":100,
+                         "min_length":17,
+                         "required":true
+                    },
+                    {
+                         "q":"Provide proof regarding the cheater report",
+                         "p":"As much information as possible to assist the admin...",
+                         "type":"long",
+                         "max_length":1000,
+                         "min_length":25,
+                         "required":true
+                    }
+               ]
+          },       
+          "VIP / Payment Issues":{
+               "TicketPingRole":1118012282635571200,
+               "TicketCategory":1279144318183149741,
+               "Log_Channel_ID":1279143961419841698,
+               "RolesInChannel":[1118012282635571200],
+               "Description":"Need help with our store or have a question about VIP.",
+               "ChannelShortname":"payment-support",
+               "Emoji":"💰",
+               "Questions":[
+                    {
+                         "q":"What server are you on?",
+                         "p":"Please enter the server you are on...",
+                         "type":"short",
+                         "max_length":50,
+                         "min_length":0,
+                         "required":true
+                    },
+                    {
+                         "q":"steam64 ID?",
+                         "p":"package receiver...",
+                         "type":"short",
+                         "max_length":75,
+                         "min_length":0,
+                         "required":true
+                    },
+                    {
+                         "q":"What package is this?",
+                         "p":"Please enter the server name and package name...",
+                         "type":"short",
+                         "max_length":50,
+                         "min_length":0,
+                         "required":true
+                    },
+                    {
+                         "q":"Paynow ID - found within email e.g pn-39y4jox",
+                         "p":"Please enter the paynow ID...",
+                         "type":"short",
+                         "max_length":30,
+                         "min_length":3,
+                         "required":true
+                    },
+                    {
+                         "q":"What is the reason for the ticket?",
+                         "p":"Please enter the reason for the ticket...",
+                         "type":"long",
+                         "max_length":75,
+                         "min_length":0,
+                         "required":true
+                    }
+               ]
+          },  
+          "Ban Appeal":{
+               "TicketPingRole":1035488875931512832,
+               "TicketCategory":1279144318183149741,
+               "Log_Channel_ID":1279143961419841698,
+               "RolesInChannel":[1118012282635571200,786716118077276161,1046115125930770465,1035488875931512832],
+               "Description":"You have been banned from our servers and wish to appeal",
+               "ChannelShortname":"ban-appeal",
+               "Emoji":"⛔",
+               "Questions":[
+                    {
+                         "q":"What is the ban reason? eg : 'Cheating'",
+                         "p":"Please enter the ban reason'...",
+                         "type":"short",
+                         "max_length":75,
+                         "min_length":5,
+                         "required":true
+                    },
+                    {
+                         "q":"Statement to back your ban appeal",
+                         "p":"Please provide any proof to back your appeal..",
+                         "type":"long",
+                         "max_length":1000,
+                         "min_length":25,
+                         "required":true
+                    }
+               ]
+          },  
+          "Other":{
+               "TicketPingRole":1035488875931512832,
+               "TicketCategory":1279144318183149741,
+               "Log_Channel_ID":1279143961419841698,
+               "RolesInChannel":[1118012282635571200,786716118077276161,1046115125930770465,1035488875931512832],
+               "Description":"Need support with something not listed above.",
+               "ChannelShortname":"other",
+               "Emoji":"📩",
+               "Questions":[
+                    {
+                         "q":"What we can assist you with?",
+                         "p":"Please provide as much info as possible",
+                         "type":"long",
+                         "max_length":100,
+                         "min_length":10,
+                         "required":true
+                    },
+                                  {
+                         "q":"What server are you on?",
+                         "p":"Please enter the server you are on...",
+                         "type":"short",
+                         "max_length":50,
+                         "min_length":0,
+                         "required":true
+                    }
+               ]
+          }
+     }
+     }
+      
