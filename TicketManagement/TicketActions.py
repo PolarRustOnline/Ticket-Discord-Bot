@@ -28,7 +28,7 @@ class TicketActions():
           transcript = await chat_exporter.export(
                channel,
                limit=1000,
-               bot=self.bot,
+               bot=self.bot
           )
           if not transcript:
                return "None"

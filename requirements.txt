@@ -1,4 +1,4 @@
-chat_exporter==2.2.1
+chat_exporter @ https://github.com/mahtoid/DiscordChatExporterPy
 discord.py==2.4.0
 fastapi==0.115.12
 motor==3.0.0

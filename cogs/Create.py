@@ -139,7 +139,7 @@ class Creation(commands.Cog):
           #Format the ticket text
           ticket_text = f"{member.mention} has made a **{ticket_type}** Ticket: \n" + question_text + "\n\nTo close this ticket click the 🔒 • Close Button"
           if "TicketPingRole" in ticket_type_info and ticket_type_info["TicketPingRole"]:
-               ticket_text = f"<@{ticket_type_info['TicketPingRole']}> " + ticket_text
+               ticket_text = f"<@&{ticket_type_info['TicketPingRole']}> " + ticket_text
 
           
           
