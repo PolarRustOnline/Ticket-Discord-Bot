@@ -102,6 +102,7 @@ class Creation(commands.Cog):
           ticket_type: str = "",
           questions: dict = None
           ) -> None:
+          await interaction.response.defer(ephemeral=True)
 
           
 
@@ -151,14 +152,13 @@ class Creation(commands.Cog):
                     category=category
                )
           except (discord.HTTPException, discord.Forbidden):
-               return await interaction.response.send_message(content=f"**Error** : We currently have too many of those tickets - please try again shortly",ephemeral=True)
-         
-          await interaction.response.send_message(content=f"Ticket has been created -> <#{channel.id}>",ephemeral=True)
+               return await interaction.followup.send(content=f"**Error** : We currently have too many of those tickets - please try again shortly",ephemeral=True)
+
+          await interaction.followup.send(content=f"Ticket has been created -> <#{channel.id}>",ephemeral=True)
 
           ticket_msg = await channel.send(content=ticket_text,view=CloseButton(bot))
 
-          
-
+     
           await ticket_db.insert({
                "_id":ticket_id_referance,
                "member_id":member.id,
